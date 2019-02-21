@@ -146,7 +146,12 @@ MonoBehaviour:
   - {fileID: 8875679163418616717, guid: c0ac59269613cc243a191693544674be, type: 3}
   - {fileID: 7521856214602743738, guid: 4a90da3d768f72445adfcdc8872c8e58, type: 3}
   - {fileID: 1227029744368465239, guid: 8c0065138eba3684a844659002428074, type: 3}
-  maxObjects: 10
+  minObjects: 10
+  maxObjects: 50
+  trainingImages: 2000
+  valImages: 400
+  grayscale: 0
+  save: 0
 --- !u!4 &13477543
 Transform:
   m_ObjectHideFlags: 0
